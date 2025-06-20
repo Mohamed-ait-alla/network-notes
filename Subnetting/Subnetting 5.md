@@ -15,13 +15,13 @@ We want to subnet our home network (192.168.1.0/24) into 4 smaller networks: **W
 >We’ll be “hacking” into these **8 host bits**.
 
 ### Step 1 - Calculate How Many Host Bits to Hack
->We want **4 networks**, so we need to find how many bits are required to represent 4 >subnets.<br>
+>We want **4 networks**, so we need to find how many bits are required to represent 4 subnets.<br>
 >
 >We use the **formula**:<br>
 >**`2^n ≥ number_of_subnets`** <br>
 >So:<br>
 >**`2^2 = 4 → ✅`** <br>
->Depending on the **hack table**, We need to hack **2 host bits**
+>So we need to hack **2 host bits**
 
 ### Step 2 - Hack the Host Bits
 > We **steal** **2** bits from the host portion and **add** them to the network portion:
