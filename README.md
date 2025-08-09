@@ -12,8 +12,8 @@ It is organized into two main sections:
 ## Repository Structure
 ```bash
 .
-├── network_basis/    # Theory notes covering the OSI/TCP-IP models, IP addressing, devices, and protocols.
-├── subnetting/       # Subnetting theory, step-by-step examples, and practice problems.
+├── Network-Basis/    # Theory notes covering the OSI/TCP-IP models, IP addressing, devices, and protocols.
+├── Subnetting/       # Subnetting theory, step-by-step examples, and practice problems.
 └── README.md
 ```
 
